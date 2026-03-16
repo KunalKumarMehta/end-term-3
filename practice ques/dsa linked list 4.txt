@@ -1,0 +1,346 @@
+Problem Description
+
+Given a sorted linked list, delete all duplicates such that each element appears only once.
+
+
+
+Problem Constraints
+
+0 <= length of linked list <= 106
+
+
+
+Input Format
+
+First argument is the head pointer of the linked list.
+
+
+
+Output Format
+
+Return the head pointer of the linked list after removing all duplicates.
+
+
+
+Example Input
+
+Input 1:
+
+ 1->1->2
+Input 2:
+
+ 1->1->2->3->3
+
+
+Example Output
+
+Output 1:
+
+ 1->2
+Output 2:
+
+ 1->2->3
+
+
+Example Explanation
+
+Explanation 1:
+
+ Each element appear only once in 1->2.
+
+
+/**
+ * Definition for singly-linked list.
+ * class ListNode {
+ *     public int val;
+ *     public ListNode next;
+ *     ListNode(int x) { val = x; next = null; }
+ * }
+ */
+public class Solution {
+    public ListNode deleteDuplicates(ListNode A) {
+    }
+}
+
+Problem Description
+
+Write a program to find the node at which the intersection of two singly linked lists, A and B, begins. For example, the following two linked lists:
+
+A:          a1 → a2
+                   ↘
+                     c1 → c2 → c3
+                   ↗
+B:     b1 → b2 → b3
+NOTE:
+
+If the two linked lists have no intersection at all, return null.
+The linked lists must retain their original structure after the function returns.
+You may assume there are no cycles anywhere in the entire linked structure.
+Your code should preferably run in O(n) time and use only O(1) memory.
+The custom input to be given is different than the one explained in the examples. Please be careful.
+
+
+Problem Constraints
+
+0 <= |A|, |B| <= 106
+
+
+
+Input Format
+
+The first argument of input contains a pointer to the head of the linked list A.
+
+The second argument of input contains a pointer to the head of the linked list B.
+
+
+
+Output Format
+
+Return a pointer to the node after which the linked list is intersecting.
+
+
+
+Example Input
+
+Input 1:
+
+ A = [1, 2, 3, 4, 5]
+ B = [6, 3, 4, 5]
+Input 2:
+
+ A = [1, 2, 3]
+ B = [4, 5]
+
+
+Example Output
+
+Output 1:
+
+ [3, 4, 5]
+Output 2:
+
+ []
+
+
+Example Explanation
+
+Explanation 1:
+
+ In the first example, the nodes have the same values after 3rd node in A and 2nd node in B. Thus, the linked lists are intersecting after that point. 
+Explanation 2:
+
+ In the second example, the nodes don't have the same values, thus we can return None/Null. 
+
+
+/**
+ * Definition for singly-linked list.
+ * class ListNode {
+ *     public int val;
+ *     public ListNode next;
+ *     ListNode(int x) { val = x; next = null; }
+ * }
+ */
+public class Solution {
+	public ListNode getIntersectionNode(ListNode A, ListNode B) {
+	
+	}
+}
+
+
+Problem Description
+
+Design and implement a data structure for Least Recently Used (LRU) cache. It should support the following operations: get and set.
+
+get(key) - Get the value (will always be positive) of the key if the key exists in the cache, otherwise return -1.
+set(key, value) - Set or insert the value if the key is not already present. When the cache reaches its capacity, it should invalidate the least recently used item before inserting the new item.
+The LRUCache will be initialized with an integer corresponding to its capacity. Capacity indicates the maximum number of unique keys it can hold at a time.
+
+Definition of "least recently used" : An access to an item is defined as a get or a set operation of the item. "Least recently used" item is the one with the oldest access time.
+
+NOTE: If you are using any global variables, make sure to clear them in the constructor.
+
+Example :
+
+Input : 
+         capacity = 2
+         set(1, 10)
+         set(5, 12)
+         get(5)        returns 12
+         get(1)        returns 10
+         get(10)       returns -1
+         set(6, 14)    this pushes out key = 5 as LRU is full. 
+         get(5)        returns -1 
+
+
+public class Solution {
+    
+    public Solution(int capacity) {
+        
+    }
+    
+    public int get(int key) {
+        
+    }
+    
+    public void set(int key, int value) {
+        
+    }
+}
+
+
+Problem Description
+
+Given a linked list A and a value B, partition it such that all nodes less than B come before nodes greater than or equal to B.
+
+You should preserve the original relative order of the nodes in each of the two partitions.
+
+
+
+Problem Constraints
+
+1 <= |A| <= 106
+
+1 <= A[i], B <= 109
+
+
+
+Input Format
+
+The first argument of input contains a pointer to the head to the given linked list.
+
+The second argument of input contains an integer, B.
+
+
+
+Output Format
+
+Return a pointer to the head of the modified linked list.
+
+
+
+Example Input
+
+Input 1:
+
+A = [1, 4, 3, 2, 5, 2]
+B = 3
+Input 2:
+
+A = [1, 2, 3, 1, 3]
+B = 2
+
+
+Example Output
+
+Output 1:
+
+[1, 2, 2, 4, 3, 5]
+Output 2:
+
+[1, 1, 2, 3, 3]
+
+
+Example Explanation
+
+Explanation 1:
+
+ [1, 2, 2] are less than B wheread [4, 3, 5] are greater than or equal to B.
+Explanation 2:
+
+ [1, 1] are less than B wheread [2, 3, 3] are greater than or equal to B.
+
+
+/**
+ * Definition for singly-linked list.
+ * class ListNode {
+ *     public int val;
+ *     public ListNode next;
+ *     ListNode(int x) { val = x; next = null; }
+ * }
+ */
+public class Solution {
+    public ListNode partition(ListNode A, int B) {
+    }
+}
+
+
+Problem Description
+
+Given a linked list where every node represents a linked list and contains two pointers of its type:
+
+Pointer to next node in the main list (right pointer)
+Pointer to a linked list where this node is head (down pointer). All linked lists are sorted.
+You are asked to flatten the linked list into a single list. Use down pointer to link nodes of the flattened list. The flattened linked list should also be sorted.
+
+
+
+Problem Constraints
+
+1 <= Total nodes in the list <= 100000
+
+1 <= Value of node <= 109
+
+
+
+Input Format
+
+The only argument given is head pointer of the doubly linked list.
+
+
+
+Output Format
+
+Return the head pointer of the Flattened list.
+
+
+
+Example Input
+
+Input 1:
+
+   3 -> 4 -> 20 -> 20 ->30
+   |    |    |     |    |
+   7    11   22    20   31
+   |               |    |
+   7               28   39
+   |               |
+   8               39
+Input 2:
+
+   2 -> 4 
+   |    |       
+   7    11    
+   |            
+   7
+
+
+Example Output
+
+Output 1:
+
+ 3 -> 4 -> 7 -> 7 -> 8 -> 11 -> 20 -> 20 -> 20 -> 22 -> 28 -> 30 -> 31 -> 39 -> 39 
+Output 2:
+
+ 2 -> 4 -> 7 -> 7 -> 11
+
+
+Example Explanation
+
+Explanation 1:
+
+ The return linked list is the flatten sorted list.
+
+
+/*
+class ListNode {
+    int val;
+    ListNode right, down;
+    ListNode(int x) {
+        val = x;
+        right = down = null;
+    }
+}
+*/
+ListNode flatten(ListNode root) {
+    
+}
