@@ -51,3 +51,45 @@ Reverse the Linked List using Recursion
 Shallow Copy vs Deep Copy
 Deep Copy of Linked List
 Middle Element of List"
+12,FDSA: Linked List 3,"Merge Two Sorted List
+Merge Sort on Linked List
+Check if given linked list has cycle
+Find the start of the cycle"
+13,FDSA: Linked List 4,"Doubly Linked List Introduction
+Insert a Node in DLL
+Delete the first occurrence of an element in DLL
+K Most Recent Integer (LRU Cache)"
+14,FDSA: Stacks 1,"Introduction
+Operations of Stack
+Undo & Redo
+Stack Implementation via Dynamic Arrays
+Stack Implementation via Linked List
+Balanced Parenthesis
+Evaluate Postfix Expression"
+15,FDSA: Stacks 2,"Nearest Smaller & Greater Element on Left
+Nearest Smaller & Greater Element on Right
+Largest Rectangle in a Histogram"
+16,FDSA: Queues 1,"Introduction of Queues
+Queue Implementation via Dynamic Arrays
+Queue Implementation via Linked List
+Implement Queue via Stacks
+N integers containing 1, 2 & 3"
+17,FDSA: Problems on Stacks & Queues,"Introduction of Deque
+Sliding Window Maximum
+Count of Subarrays where A[i] is Minimum
+Sum of (Max - Min) for all subarrays"
+18,FDSA: Binary Trees 1,"Structure & Nomenclature of Binary Tree
+Binary Tree Traversal [Preorder + Inorder + Postorder]
+Iterative Inorder Traversal
+Create a Binary Tree from Preorder Input"
+19,FDSA: Binary Trees 2,"Count Nodes in Binary Tree
+Sum of Nodes in Binary Tree
+Equal Tree Partition
+Find the Height Binary Tree
+Check if Binary Tree if Height Balanced
+Diameter of Binary Tree
+Path sum"
+20,FDSA: Binary Trees 3,"Level Order Traversal
+Left View & Right View
+Next Pointer Binary Tree
+Construct Binary Tree from Inorder & Postorder traversal"

@@ -38,3 +38,39 @@ Session 7 as per this list is <CANCELLED>",-
 • Will I even see such distributions in real-life?","• Normal Distribution, Gaussian Distribution
 • 68 / 95 / 99.7 rule
 • CDF and PPF"
+9,Central Limit Theorem,"• The magic of Central Limit Theorem
+• Decision making using Central Limit Theorem","• Population vs Sample
+• Standard Error
+• Estimation of sample mean"
+10,Problem Solving - 2,• Additional Problems using concepts learnt so far,• NA
+11,Other Important Distributions,• Making predictions from other types of distributions,"• Poisson Distribution
+• Geometric Distribution
+• Exponential Distribution"
+12,Intro to Hypothesis Testing,"• What is Hypothesis Testing
+• Vocabulary of Hypothesis Testing","• Null Hypothesis
+• Alternative Hypothesis
+• p-value
+• alpha-value
+• Type-1 and Type-2 errors
+• False Positives and False Negatives"
+13,One Sample tests,"• Testing hypothesis about Population mean
+• Testing hypothesis about Population proportion","• Z distribution
+• T distribution
+• One-sample T-Test
+• scipy.stats library in Python"
+14,Two sample tests,"• T-test for two independent samples
+• T-test for two related samples","• T-test for 2 Independent samples
+• T-test for 2 Related samples (Paired T-test)"
+15,Chisquared Test,"• When to use Chisquared test
+• How to use Chisquared test
+• Goodness of Fit test
+• Test of Independence","• Chi distribution
+• Degrees of Freedom
+• Chisquared Test"
+16,Buffer Session 1,Buffer session for spillovers and additional problem solving,• NA
+17,Covariance and Correlation,"• Measuring the strength of Linear Relationships
+• Covariance vs Correlation","• Covariance
+• Correlation
+• Pearsons's rho
+• Spearman's rho"
+18,Case Study,Application of concepts discussed so far on analysing a real-world data set,• NA
